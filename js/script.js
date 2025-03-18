@@ -2,7 +2,7 @@
 for(let i=1; i<=100; i++){
     
     // metto le condizioni per controllare se divisibile
-    // controllo se è divisibile per 3
+    // controllo se è divisibile sia per 3 che per 5
     if(i % 3 == 0 && i % 5 == 0)
     {
         console.log("FizzBuzz");
@@ -11,7 +11,7 @@ for(let i=1; i<=100; i++){
     else if(i % 5 == 0){
         console.log("Buzz");
     }
-    // controllo se è divisibile sia per 3 che per 5
+    // controllo se è divisibile per 3
     else if(i % 3 == 0){
         console.log("Fizz");
     }
